@@ -1,0 +1,26 @@
+body{
+    background: green;
+}
+.img-box{
+    width: 90%;
+    margin: 2em auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    background: yellowgreen;
+    width: 450px;
+    height: 300px;
+    border: 10px solid lightcoral;/*Este si empuja a su elemento hermano*/    
+    outline: 5px solid lightcoral;/*No empuja al siguiente elemento solo se monta*/
+    outline-offset: -45px;
+}
+
+.text{
+    position: absolute;
+    color: lightseagreen;
+    font-size: 3em;
+}

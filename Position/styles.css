@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+.parrafo-1{
+    /*visibility: hidden;*//*Este lo pone en modo transparente pero igual se queda reservado el espacio*/
+    display: none;/*Este lo elimina por completo*/
+}
