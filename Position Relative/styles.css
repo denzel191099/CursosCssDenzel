@@ -18,7 +18,7 @@ Al ser un elemento posicionado lo podemos mover en los tres ejes X Y Z
     position: relative;/*reserva su espacio pero si lo traslada*/
     /*top right buttom left z-index*/
     /* top: 100px;
-    left: 50px; */
+    left: 50px;*/
     /*z-index: 1;/*Pone en adelante a esta box ya q si no tuviera  se pondria primero box2*/
 
 
