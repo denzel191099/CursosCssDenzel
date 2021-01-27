@@ -1,0 +1,51 @@
+.container{
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+     height: 300px;
+     border: 3px solid black;
+     position: relative; /*Comoe s contenedor amndara en la psoicion de us hijos*/
+}
+
+[class^=box]{
+    width: 50px;
+    height:50px; 
+}
+
+.box1{
+    border: 4px solid red;
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+
+.box2{
+    border: 4px solid blue;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.box3{
+    border: 4px solid yellow;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box4{
+    border: 4px solid slateblue;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.box5{
+    border: 4px solid greenyellow;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0px;
+}
